@@ -1,6 +1,4 @@
-<!doctype html>
-<html lang="en">
-<head>
+<html lang="en"><head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,8 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
   <title>Med One Pharmacy</title>
-</head>
-<body>
+<style>@media print {#ghostery-purple-box {display:none !important}}</style></head>
+<body class="vsc-initialized">
   <nav class="navbar navbar-expand-md navbar-dark bg-danger">
     <a class="navbar-brand" href="#">Med One Pharmacy</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,19 +23,19 @@
           <a class="nav-link" href="#refills">Refills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mobile App</a>
+          <a class="nav-link" href="#app">Mobile App</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Locations</a>
+          <a class="nav-link" href="#locations">Locations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#about">About Us</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div id="carouselLocations" class="carousel slide" data-ride="carousel">
+  <div id="carouselLocations" data-ride="carousel" class="carousel slide mb-3">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="d-block w-100" src="images/boonsboro.jpg" alt="Boonsboro Pharmacy">
@@ -88,15 +86,16 @@
     </div>
 
     <div class="row">
-
+      <h2>My GNP Mobile App</h2>
+      <img id="my-gnp" src="images/my-gnp-crop.jpg" alt="Download the My GNP app">
+      <div id="downloads">
+        <a href="https://play.google.com/store/apps/details?id=com.abc.mcoe.gnp.GoodNeighbourPharmacy"><img class="download-button" alt="Get it on Google Play" src="images/google-play.png"></a>
+        <a href="https://itunes.apple.com/us/app/my-gnp/id864032633"><img class="download-button" alt="Download on the App Store" src="images/apple-store.png"></a>
+      </div>
     </div>
 
-    <div class="row" id="locations">
-      <div class="row">
-        <div class="col">
+    <div id="locations" class="row mx-1">
         <h2 class="text-danger">Locations</h2>
-        </div>
-      </div>
       <div class="row">
         <div class="card m-2" style="width: 15rem;">
           <div class="card-body">
@@ -206,7 +205,22 @@
     </div>
 
     <div class="row">
-
+      <div class="col">
+        <h2>About Us</h2>
+        <p>Med One Pharmacy is a family-owned independent pharmacy chain. We offer friendly, personalized service that specifically caters to your individual needs. You'll also find the best value in pricing, selection, and support. As a full-service pharmacy, we carry a complete line of inventory to cover all of your prescription needs and accept most insurance companies.</p>
+        <h3>Services</h3>
+        <ul>
+          <li>Prescription medications</li>
+          <li>Over-the-counter products</li>
+          <li>Electronic refills through refillrx.com and mobile apps</li>
+          <li>Automatic refill service</li>
+          <li>Medical supplies and home healthcare equipment</li>
+          <li>Next-day ordering on special items</li>
+          <li>Vaccine administration</li>
+          <li>Wheelchair, walker, and crutch rentals</li>
+          <li>"Hot List" of medications for $10.15</li>
+        </ul>
+      </div>
     </div>
 
   </div>
@@ -216,5 +230,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-</body>
-</html>
+
+
+</body></html>
