@@ -18,12 +18,12 @@
 /* xl: Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  .carousel-item {
+  /* .carousel-item {
     height: 48rem;
   }
   .carousel-item > img {
     position: absolute;
     top: -5%;
-  }
+  } */
 
 }
