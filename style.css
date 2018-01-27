@@ -1,6 +1,12 @@
 /* xs: Extra small devices (portrait phones, less than 576px) */
 h2 {margin-top: 1rem}
 .text-primary {color: #800000 !important}
+.jumbotron {
+  z-index: 3;
+  bottom: 0;
+  background-color: transparent;
+}
+#jumbotronBackground {background-color: rgba(255,255,255,0.75)}
 .card-body {padding: .5rem}
 .card-title {
   padding: .5rem 0;
