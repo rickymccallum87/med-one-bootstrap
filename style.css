@@ -1,5 +1,6 @@
 /* xs: Extra small devices (portrait phones, less than 576px) */
 h2 {margin-top: 1rem}
+.text-primary {color: #800000 !important}
 
 @media (min-width: 400px) {
   #title {display: inline !important}
