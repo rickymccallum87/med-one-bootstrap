@@ -17,13 +17,5 @@
 
 /* xl: Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-  /* .carousel-item {
-    height: 48rem;
-  }
-  .carousel-item > img {
-    position: absolute;
-    top: -5%;
-  } */
-
+  #carouselLocations {width: 1110px}
 }
