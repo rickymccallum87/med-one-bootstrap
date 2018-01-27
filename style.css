@@ -1,5 +1,9 @@
 /* xs: Extra small devices (portrait phones, less than 576px) */
 
+@media (min-width: 400px) {
+  #title {display: inline !important}
+}
+
 /* sm: Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 }
