@@ -1,6 +1,13 @@
 /* xs: Extra small devices (portrait phones, less than 576px) */
 h2 {margin-top: 1rem}
 .text-primary {color: #800000 !important}
+.card-body {padding: .5rem}
+.card-title {
+  padding: .5rem 0;
+  color: white !important;
+  background-color: #800000;
+  text-align: center;
+}
 
 @media (min-width: 400px) {
   #title {display: inline !important}
