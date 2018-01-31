@@ -9,9 +9,9 @@
 
   <title>Med One Pharmacy</title>
 </head>
-<body data-spy="scroll" data-target="#navbarSupportedContent" style="position: relative">
+<body>
 
-  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand" href="">
       <img src="images/med-one.png" height="50" width="auto"><span id="title" class="d-none d-sm-inline text-primary font-weight-bold ml-2">Med One Pharmacy</span>
     </a>
@@ -21,19 +21,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#transfer">Transfer Prescriptions</a>
+          <a class="nav-link" href="#transfer">Transfer Prescriptions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#refills">Refills</a>
+          <a class="nav-link" href="#refills">Refills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#app">App</a>
+          <a class="nav-link" href="#app">App</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#locations">Locations</a>
+          <a class="nav-link" href="#locations">Locations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
       </ul>
     </div>
@@ -325,46 +325,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-<!--   <script type="text/javascript">
-    var offset = 76;
 
-    $('.navbar-nav li a').click(function(event) {
-        event.preventDefault();
-        $($(this).attr('href'))[0].scrollIntoView();
-        scrollBy(0, -offset);
-    });
-  </script> -->
-  <script src="jquery-ui.min.js"></script>
-  <script type="text/javascript">
-    (function($) {
-      "use strict"; // Start of use strict
-
-      // Smooth scrolling using jQuery easing
-      $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: (target.offset().top - 76)
-            }, 1000, "easeInOutExpo");
-            return false;
-          }
-        }
-      });
-
-      // Closes responsive menu when a scroll trigger link is clicked
-      $('.js-scroll-trigger').click(function() {
-        $('.navbar-collapse').collapse('hide');
-      });
-
-      // Activate scrollspy to add active class to navbar items on scroll
-      $('body').scrollspy({
-        target: '#navbarSupportedContent',
-        offset: 76
-      });
-
-    })(jQuery); // End of use strict
-  </script>
 </body>
 </html>
