@@ -35,6 +35,10 @@ h2 {margin-top: 2rem}
     top: .75rem;
     margin-left: 1rem !important;
   }
+
+  .card {
+    width: 15rem;
+  }
 }
 
 /* xl: Extra large devices (large desktops, 1200px and up) */
